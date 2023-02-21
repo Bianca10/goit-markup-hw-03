@@ -1,0 +1,363 @@
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  color: #757575;
+}
+* {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+/*logo*/
+.logo::after {
+  content: "Studio";
+  color: black;
+}
+.logo {
+  margin-right: 93px;
+  margin-left: 215px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  color: #2196f3;
+  text-decoration: none;
+}
+.logo-2::after {
+  content: "Studio";
+  color: white;
+}
+.logo-2 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  color: #2196f3;
+  text-decoration: none;
+  font-style: normal;
+}
+/*Header*/
+.header-inner-containe {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.page-header {
+  border-bottom: 1px solid;
+  color: rgba(236, 236, 236, 1);
+}
+
+.navigation-list {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  flex-grow: 1;
+}
+
+.right-navigation {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+.list-a {
+  font-weight: 500;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.header-navigation {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.page-header {
+  display: flex;
+}
+.header-navigation,
+.navigation-list,
+.right-navigation {
+  display: flex;
+}
+.navigation-list {
+  gap: 50px;
+  flex-grow: 1;
+}
+.right-navigation {
+  gap: 40px;
+}
+.list-b {
+  display: flex;
+  flex-grow: 1;
+}
+.unstyled-list {
+  list-style: none;
+}
+.list-one {
+  list-style: none;
+}
+
+.hover-part:hover {
+  color: #2196f3;
+}
+.right-navigation li a {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
+}
+/*Hero Section*/
+.hero-inner-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  background-color: #2f303a;
+  width: 1600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  width: 696px;
+  margin-top: 200px;
+}
+
+.button-style {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 87;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  border: #2196f3;
+  align-self: center;
+  box-sizing: border-box;
+  padding: 10px 19px 10px 20px;
+}
+.button-style:hover {
+  color: white;
+}
+.buttons:hover {
+  color: white;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: #2196f3;
+}
+
+/*Middle Sectioon*/
+.middle-inner-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.middle-section {
+  background-color: #e5e5e5;
+}
+
+.text-section-list {
+  display: flex;
+  gap: 30px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.subtitle-section {
+  font-weight: 700;
+  line-height: 1, 14;
+  text-transform: uppercase;
+  color: #212121;
+}
+.text-section {
+  line-height: 1, 71;
+  height: 75px;
+  width: 270px;
+  margin-top: 10px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+/*Our Work*/
+.ourwork-inner-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.our-work-images {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 94px;
+}
+.ourwork-section {
+  background-color: #e5e5e5;
+}
+
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  color: #212121;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 94px;
+}
+.box-section {
+  box-shadow: 0px 2px 0px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/*OurTime*/
+.ourtine-inner-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.ourtime-section {
+  background-color: #f5f4fa;
+  padding-bottom: 94px;
+}
+.our-time-images {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.name-section {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 18;
+  color: #212121;
+}
+.role-section {
+  font-size: 16px;
+  line-height: 1, 18;
+}
+/*Footer*/
+.footer-inner {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 60px 1240px 60px 215px;
+}
+.footer-section {
+  background-color: #2f303a;
+  display: flex;
+  flex-direction: column;
+}
+.adress-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 28px;
+  margin-left: 175px;
+}
+.adress-section {
+  line-height: 1, 14;
+  color: #ffffff;
+  text-decoration: none;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  padding-top: 28px;
+}
+.mail-section {
+  line-height: 1, 14;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+}
+.tel-section {
+  line-height: 1, 14;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+}
+/*Buttons Portfolio*/
+.buttons-inner {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.buttons-section .photos-section {
+  background: #e5e5e5;
+}
+
+.buttons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62x;
+  color: #212121;
+}
+.button-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 6px 22px;
+}
+.buttons-section {
+  padding-top: 100px;
+  padding-bottom: 56px;
+}
+
+/*Cards section*/
+.cards-inner .project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.job-section {
+  font-size: 16px;
+  line-height: 1, 85;
+}
+.cards-images {
+  flex-wrap: wrap;
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  padding: 0;
+  gap: 30px;
+}
+
+.cards-items {
+  border: 1px solid rgba(238, 238, 238, 1);
+}
