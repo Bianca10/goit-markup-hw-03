@@ -23,9 +23,7 @@ body {
   content: "Studio";
   color: black;
 }
-.logo {
-  margin-right: 93px;
-}
+
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -46,8 +44,10 @@ body {
   color: #2196f3;
   text-decoration: none;
   font-style: normal;
+}
+.logo-2 {
+  display: flex;
   padding-top: 60px;
-  margin-left: 215px;
 }
 /*Header*/
 .header-inner-container {
@@ -253,7 +253,9 @@ body {
   margin-right: 92px;
   margin-left: 92px;
 }
-
+.name {
+  white-space: nowrap;
+}
 .role-section {
   font-size: 16px;
   line-height: 1, 18;
@@ -261,51 +263,44 @@ body {
 }
 /*Footer*/
 .footer-inner {
+  margin: 0, auto;
   width: 1200px;
-  margin: 0 auto;
 }
 .footer-section {
   background-color: #2f303a;
-  display: flex;
-  flex-direction: column;
 }
 .adress-list {
   display: flex;
   flex-direction: column;
   gap: 12px;
   margin-top: 28px;
-  margin-left: 175px;
+  margin-bottom: 60px;
 }
 .adress-section {
   line-height: 1, 14;
   color: #ffffff;
   text-decoration: none;
   font-style: normal;
-  display: flex;
-  flex-direction: column;
-  padding-top: 28px;
 }
 .mail-section {
   line-height: 1, 14;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
-  display: flex;
-  flex-direction: column;
 }
 .tel-section {
   line-height: 1, 14;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
-  display: flex;
-  flex-direction: column;
 }
+
 /*Buttons Portfolio*/
 .buttons-inner {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  width: 1200px;
 }
 .buttons-section .photos-section {
   background: #e5e5e5;
@@ -330,9 +325,8 @@ body {
 
 /*Cards section*/
 .cards-inner {
-  display: flex;
+  width: 1200px;
   margin: 0 auto;
-  justify-content: center;
 }
 
 .project {
@@ -352,10 +346,12 @@ body {
   margin: 4px 24px 20px 24px;
 }
 .cards-images {
-  flex-wrap: wrap;
-  display: flex;
   width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
   gap: 30px;
+  padding: 0;
+  justify-content: center;
   margin-bottom: 94px;
 }
 
