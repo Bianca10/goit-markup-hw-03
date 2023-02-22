@@ -258,6 +258,7 @@ body {
   gap: 12px;
   margin-top: 28px;
   margin-bottom: 60px;
+  padding-inline-start: 0px;
 }
 .adress-section {
   line-height: 1, 14;
